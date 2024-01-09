@@ -15,6 +15,7 @@ body {
     padding-right: 40px; */
     padding: 20px 40px;
     margin-bottom: 60px;
+    height: 80px;
 }
 
 article {
@@ -30,6 +31,7 @@ aside {
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
     padding: 50px 0;
+    width: 500px;
 }
 
 nav {
@@ -146,6 +148,12 @@ a:active {
 }
 
 /* LVHA  link, visited, hover, active*/
+
+
+.post-img {
+    width: 100%;
+    height: auto;
+}
 
 /* Resolving conflicts */
 #copyright {
