@@ -36,9 +36,9 @@ nav {
   /* text-align: center; */
 }
 
-article {
-  /* margin-bottom: 60px; */
-}
+/* article {
+  margin-bottom: 60px;
+} */
 
 .post-header {
   margin-bottom: 40px;
@@ -391,11 +391,11 @@ aside {
   grid-column: 1 / -1;
 }
 
-article {}
+/* article {} */
 
-aside {
-  /* align-self: start; */
-}
+/* aside {
+  align-self: start;
+} */
 
 footer {
   grid-column: 1 / -1;
