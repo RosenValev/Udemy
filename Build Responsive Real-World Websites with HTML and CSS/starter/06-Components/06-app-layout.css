@@ -29,7 +29,6 @@ body {
 }
 
 nav,
-menu,
 section,
 main,
 aside {
@@ -43,16 +42,52 @@ nav {
 }
 
 menu {
+    display: flex;
     background-color: #7048e8;
-    color: #fff;
-
     grid-column: 2 / -1;
+    align-items: center;
+    gap: 12px;
+    padding: 0 40px;
 }
 
 section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    padding: 40px;
     background-color: #e9ecef;
+
+    /* How elements that dont fit into container appear */
+    overflow: scroll;
+}
+
+.email {
+    background-color: #adb5bd;
+    height: 96px;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 aside {
     background-color: #e9ecef;
+}
+
+button {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #5f3dc4;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 12px;
+}
+
+button:last-child {
+    background-color: #e03131;
+    margin-left: auto;
 }
