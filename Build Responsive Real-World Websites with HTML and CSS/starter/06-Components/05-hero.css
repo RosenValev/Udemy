@@ -27,23 +27,43 @@ body {
     width: 1200px;
 }
 
+.header-container {
+    width: 1200px;
+    position: absolute;
+    /* In relation to parrent size */
+    left: 50%;
+    top: 50%;
+    /* In relation to ELEMENT size */
+    transform: translate(-50%, -50%);
+}
+
+.header-container-inner {
+    width: 50%;
+}
+
 header {
-    background-color: orangered;
-    height: 100vh
+    height: 100vh;
+    position: relative;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hero.jpg);
+    background-size: cover;
+    color: #fff;
 }
 
 nav {
     font-size: 20px;
     font-weight: 700;
-    background-color: aquamarine;
 
     display: flex;
     justify-content: space-between;
+    padding-top: 32px;
+
 }
 
 h1 {
     font-size: 52px;
     margin-bottom: 32px;
+    line-height: 1.05;
 }
 
 p {
